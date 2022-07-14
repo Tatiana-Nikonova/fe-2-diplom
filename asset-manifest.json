@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fe-2-diplom/static/css/main.26f510b4.css",
+    "main.js": "/fe-2-diplom/static/js/main.12c41b58.js",
+    "static/js/787.4e882e46.chunk.js": "/fe-2-diplom/static/js/787.4e882e46.chunk.js",
+    "static/media/header-background.png": "/fe-2-diplom/static/media/header-background.874dd97f872a3e954681.png",
+    "static/media/main-banner.png": "/fe-2-diplom/static/media/main-banner.1be65d862102a6917b13.png",
+    "static/media/logo.png": "/fe-2-diplom/static/media/logo.03a269c900eb68a4eb4f.png",
+    "index.html": "/fe-2-diplom/index.html",
+    "main.26f510b4.css.map": "/fe-2-diplom/static/css/main.26f510b4.css.map",
+    "main.12c41b58.js.map": "/fe-2-diplom/static/js/main.12c41b58.js.map",
+    "787.4e882e46.chunk.js.map": "/fe-2-diplom/static/js/787.4e882e46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26f510b4.css",
+    "static/js/main.12c41b58.js"
+  ]
+}
