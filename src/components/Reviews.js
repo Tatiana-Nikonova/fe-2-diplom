@@ -49,7 +49,7 @@ const data = [
 
 function Reviews() {
 	return (
-		<section className="reviews">
+		<section className="reviews" id="reviews">
 			<div className='reviews__container'>
 				<h2 className="reviews__title titleh2">Отзывы</h2>
 				<div className="reviews-slider swiper-container">

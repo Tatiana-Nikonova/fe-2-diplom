@@ -1,15 +1,31 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Nav() {
 	return (
-		<div className="header__nav-container">
+		<nav className="header__nav-container"id="navbar">
 			<div className="header__nav">
-				<a href="#0" className="header__nav-link">О нас</a>
-				<a href="#0" className="header__nav-link">Как это работает</a>
-				<a href="#0" className="header__nav-link">Отзывы</a>
-				<a href="#0" className="header__nav-link">Контакты</a>
+				<Link to="about" spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500} className="header__nav-link">О нас</Link>
+				<Link to="howWorking" spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500} className="header__nav-link">Как это работает</Link>
+				<Link to="reviews" spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500} className="header__nav-link">Отзывы</Link>
+				<Link to="kontact" spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500} className="header__nav-link">Контакты</Link>
+				
+				
+				
 			</div>
-		</div>
+		</nav>
 	)
 }
 
