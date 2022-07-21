@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/fe-2-diplom/static/css/main.5e66669b.css",
-    "main.js": "/fe-2-diplom/static/js/main.24174880.js",
+    "main.css": "/fe-2-diplom/static/css/main.495d0e9a.css",
+    "main.js": "/fe-2-diplom/static/js/main.57c96711.js",
     "static/js/787.4e882e46.chunk.js": "/fe-2-diplom/static/js/787.4e882e46.chunk.js",
     "static/media/header-background.png": "/fe-2-diplom/static/media/header-background.874dd97f872a3e954681.png",
     "static/media/main-banner.png": "/fe-2-diplom/static/media/main-banner.1be65d862102a6917b13.png",
     "static/media/logo.png": "/fe-2-diplom/static/media/logo.03a269c900eb68a4eb4f.png",
     "static/media/jenia.png": "/fe-2-diplom/static/media/jenia.e8cb77746c830bed6321.png",
     "static/media/katia.png": "/fe-2-diplom/static/media/katia.5dde5a0272a8388e37fa.png",
+    "static/media/3.svg": "/fe-2-diplom/static/media/3.30589544e8f01d174bda51733ca3c2f1.svg",
+    "static/media/2.svg": "/fe-2-diplom/static/media/2.278eb38a359e51694b8d.svg",
+    "static/media/6.svg": "/fe-2-diplom/static/media/6.c2a078f703b68970c2e161bf03399185.svg",
+    "static/media/5.svg": "/fe-2-diplom/static/media/5.324f0383caec2e73bc1f6dfe1c1251dd.svg",
+    "static/media/1.svg": "/fe-2-diplom/static/media/1.c15426516c27ceee0b74.svg",
     "index.html": "/fe-2-diplom/index.html",
-    "main.5e66669b.css.map": "/fe-2-diplom/static/css/main.5e66669b.css.map",
-    "main.24174880.js.map": "/fe-2-diplom/static/js/main.24174880.js.map",
+    "static/media/4.svg": "/fe-2-diplom/static/media/4.3c7229f1a687c51810ed.svg",
+    "static/media/fly.svg": "/fe-2-diplom/static/media/fly.85519e79d96fd9551f31.svg",
+    "main.495d0e9a.css.map": "/fe-2-diplom/static/css/main.495d0e9a.css.map",
+    "main.57c96711.js.map": "/fe-2-diplom/static/js/main.57c96711.js.map",
     "787.4e882e46.chunk.js.map": "/fe-2-diplom/static/js/787.4e882e46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e66669b.css",
-    "static/js/main.24174880.js"
+    "static/css/main.495d0e9a.css",
+    "static/js/main.57c96711.js"
   ]
 }
