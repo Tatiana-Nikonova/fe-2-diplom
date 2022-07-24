@@ -50,7 +50,7 @@ function FormRoute() {
 
 			<div className='button'>
 				<Router>
-					<Link to="../pages/TrainSelection.js" className='button-router'>Найти билеты</Link>
+					<Link to="./TrainSelection" className='button-router'>Найти билеты</Link>
 				</Router>
 				
 			</div>
