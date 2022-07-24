@@ -5,12 +5,13 @@ import insta from '../img/social/2.svg';
 import g from '../img/social/3.svg';
 import facebook from '../img/social/5.svg';
 import telegram from '../img/social/6.svg';
+import '../css/footer.css';
 
 
 
 function Footer() {
 	return (
-		<footer className="footer">
+		<footer className="footer" id="kontact">
 			<div className="footer__top">
 				<div className="footer__main _container">
 					<div className="footer__row">

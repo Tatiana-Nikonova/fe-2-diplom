@@ -3,6 +3,7 @@ import { Pagination, Keyboard, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import '../css/reviews.css';
 import katia from '../img/katia.png';
 import jenia from '../img/jenia.png';
 
