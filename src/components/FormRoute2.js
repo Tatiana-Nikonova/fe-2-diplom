@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import cashed from '../img/ic_cached_white_48dp.png';
 import '../css/formRoute2.css';
 
 function FormRoute2() {
 	return (
-		<form className="form-router" action="#" method="get">
-			<div className="form-router__container">
+		<form className="form-router2" action="#" method="get">
+			<div className="form-router2__container">
 				<label htmlFor name="route">Направление</label>
 				<div className='select-grup'>
 					<select name="route" className="select-router router-svg">
@@ -46,6 +47,9 @@ function FormRoute2() {
 					<input name="date" type="date" className="select-router select-input1" />
 					<input name="date" type="date" className="select-router" />
 				</div>
+			</div>
+			<div className='button'>				
+				<Link to="/TrainSelection" className='button-router'>Найти билеты</Link>				
 			</div>
 		</form>
 	)

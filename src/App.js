@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import TrainSelection from "./pages/TrainSelection";
+import Page404 from './components/Page404';
 
 
 import './css/style.css';
@@ -9,14 +10,15 @@ import './css/style.css';
 
 
 function App() {
-	return (		
-		<Router>
-			<Routes>
-				<Route exact path="./pages/HomePage" component={HomePage} />
-				<Route exact path="/TrainSelection" component={TrainSelection} />
-			</Routes>
-		</Router>
-	
+	return (
+		<Routes>
+			
+			<Route path="/" element={<HomePage />} />
+			<Route path="/TrainSelection" element={<TrainSelection />} />
+			<Route path='*' element={<Page404 />} />
+		</Routes>
+
+
 
 	)
 }

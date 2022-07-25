@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import cashed from '../img/ic_cached_white_48dp.png';
-
-
-
 import '../css/formRoute.css';
 
 function FormRoute() {
@@ -48,11 +45,8 @@ function FormRoute() {
 				<input name="date" type="date" className="select-router" />
 			</div>
 
-			<div className='button'>
-				<Router>
-					<Link to="./TrainSelection" className='button-router'>Найти билеты</Link>
-				</Router>
-				
+			<div className='button'>				
+				<Link to="/TrainSelection" className='button-router'>Найти билеты</Link>				
 			</div>
 		</form>
 	)

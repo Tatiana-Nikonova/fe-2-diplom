@@ -1,12 +1,13 @@
 import React from 'react';
+import { Routes, Route, Link } from "react-router-dom";
 import logo from '../logo.png';
 import '../css/logo.css';
 
 function Logo() {
 	return (
-		<a href="/" className="header__logo">
+		<Link to="/" className="header__logo">
 			<img src={logo} className="logo"></img>
-		</a>
+		</Link>
 	)
 }
 
